@@ -23,17 +23,15 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
-
     background-color: white;
     width: 250px;
     height: 515px;
     border-radius: 20px;
     border-color: 0px 0px 10px rgba(0, 0, 0, 0.450);
-
     transition: width .3 height .3;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {
@@ -85,10 +83,10 @@ div.campo > input {
     font-size: 1em;
     width: calc(100% - 12px);
     height: 100%;
-    transform: translateY(-10px);
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+    transform: translateY(-10px);
 }
 
 div.campo > input:focus-within {
